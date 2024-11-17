@@ -113,6 +113,9 @@
 
   <img src="./assets/img/web2.png">
 
+## DEMO
+
+- Click [here](https://drive.google.com/file/d/1ZC1rX8M7_Ub9Awe_WQxNR36Gh07scK_X/view?usp=sharing) to see the demo video
 
 ## Author
 
