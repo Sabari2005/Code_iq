@@ -35,6 +35,7 @@
   - Python
   - YOLOv11
   - Deepsort tracking algorithm
+  - CSRNet
 - ### Libraries
   - `Ultralytics`
   - `Opencv-python`
