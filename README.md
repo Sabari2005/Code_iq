@@ -116,11 +116,7 @@
 
 ## Demo 
 
-- Click [here](https://drive.google.com/file/d/1IZmZjx_cvCxSVbB_x5qIh2awqWibaqm-/view?usp=sharing) to see the demo video
-
-## DEMO
-
-- Click [here](https://drive.google.com/file/d/1ZC1rX8M7_Ub9Awe_WQxNR36Gh07scK_X/view?usp=sharing) to see the demo video
+- Click [here](./assets/videos/demo.mp4) to see the demo video
 
 
 ## Author
