@@ -45,9 +45,9 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 85%;
-    width: 800px;
+    width: 95x0px;
     padding: 0 10px;
-    gap: 10px;
+    gap: 20px;
     background-color: rgba(45, 47, 49, 0.4);
     /* background-color: green; */
     border-radius: 5px;
@@ -407,4 +407,207 @@ input[type="number"] {
     margin-top: 10px;
     font-size: 20px;
     /* text-decoration: underline; */
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    height:590px;
+    width:100%;
+}
+.box4-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    height:500px;
+    width:1000px;
+    /* background-color: yellow; */
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:300px;
+    width:500px;
+    background-color: rgb(46, 53, 46);
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-size: 16px;
+    gap:10px;
+}
+
+.btn-box form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    height:100%;
+    width:100%;
+}
+.btn-box button{
+    outline: none;
+    border: none;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    transition: all 0.5s;
+    font-size: 16px;
+}
+.btn-box button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.btn-box form label{
+    width:50px;
+    height:50px;
+    background-color: rgb(68, 68, 68);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-box form label:hover{
+    /* width:50px;
+    height:50px; */
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.description-image{
+    height:50px;
+    width:50px;
+    /* background-color: green; */
+}
+.box4-result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    height:500px;
+    width:fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(51, 50, 50,35%);
+}
+.box4-result-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    height:500px;
+    width:fit-content;
+}
+.box4-image-display{
+    height:450px;
+    width:400px;
+    background-color: rgb(68, 68, 68);
+}
+.box4-image-display img{
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+}
+.box4-description{
+    /* display: flex; */
+    flex-direction: column;
+    padding: 20px;
+    height:410px;
+    width:360px;
+    background-color: rgb(68, 68, 68);
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+.box4-description div{
+    /* padding-top:px; */
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    position: static;
+    /* border-bottom: 2px solid black; */
+}
+
+.box4-enter-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height:410px;
+    width:360px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 5px;
+}
+.box4-enter-description div:first-child{
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.text-entry{
+    height:300px;
+    width:360px;
+    /* background-color: green; */
+    overflow: hidden;
+}
+.box4-enter-description textarea{
+    height: 90%;
+    width:100%;
+    color: white;
+    font-size: 16px;
+    font-family: "Segoe UI Variable", "Segoe UI", "Arial", sans-serif;
+    line-height: 25px;
+    resize: none;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    border: none;
+    overflow-y: scroll;
+}
+.box4-enter-description button{
+    outline: none;
+    border: none;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    transition: all 0.5s;
+    font-size: 16px;
+}
+.box4-enter-description button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;   
+}
+.btns{
+    margin-top: 10px;
+}
+.generate{
+    height:50px;
+    width:100px;
+    font-size: 18px;
+    font-weight: 500;
+    color:black;
+    outline: none;
+    border:none;
+    border-radius: 10px;
+}
+.generate:hover{
+    cursor: pointer;
+    height:50px;
+    width:100px;
+    font-size: 18px;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
 }
