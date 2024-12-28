@@ -620,7 +620,7 @@ async def stream_image(websocket: WebSocket):
         # Replace `file` with the actual file handling logic
         try:
             # Initialize the Groq client with the API key
-            client = Groq(api_key="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")
+            client = Groq(api_key="PUT_YOUR_API_KEY")
             
             # Path to your image
             image_path=file
